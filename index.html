@@ -25,18 +25,12 @@
 </body>
 
 <script>
-    document.getElementById("tak").addEventListener("mouseover", function() {
-        // Losowa pozycja na osi X
-        var randomX = Math.floor(Math.random() * (window.innerWidth - this.offsetWidth));
-        // Losowa pozycja na osi Y
-        var randomY = Math.floor(Math.random() * (window.innerHeight - this.offsetHeight));
-
-        this.style.left = randomX + "px";
-        this.style.top = randomY + "px";
+    document.getElementById("tak").addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/watch?v=KN3IemyqJJw"
     });
 
     document.getElementById("nie").addEventListener("click", function() {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        window.location.href = "https://www.youtube.com/watch?v=RMv6cJR8_-4"
     });
 
 </script>
