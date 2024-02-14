@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Propose</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="heart">
+            <img src="/serduszko.jpg" alt="">
+        </div> -->
+        <div class="choose">
+            <p class="tekst">Czy zostaniesz moją walentynką?</p>
+        </div>
+        <div class="przyciski">
+            <button id="tak">TAK</button>
+            <button id="nie">NIE</button>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    document.getElementById("tak").addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/watch?v=KN3IemyqJJw";
+    });
+
+    document.getElementById("nie").addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    });
+
+</script>
+
+</html>
